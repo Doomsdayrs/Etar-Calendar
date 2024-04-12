@@ -137,6 +137,10 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.dmfs/lib-recur
 	implementation("org.dmfs:lib-recur:0.16.0")
 
+	// Glance
+	implementation("androidx.glance:glance-appwidget:1.0.0")
+	implementation("androidx.glance:glance-material3:1.0.0")
+
 }
 
 tasks.preBuild.dependsOn(":aarGen")
